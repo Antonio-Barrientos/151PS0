@@ -12,7 +12,7 @@ _Please insert an x in the square brackets above to mark the assignment as submi
 
 ## Instructions:
 The pdf has all the basic instructions, but here are some additional guidelines.
-- [ ] Code for Problem 1 should be written in the file called `Karel_Newspaper.py` included in the repository. Please do not forget to fill out the meta-data information in the comments at the top of the template!
+- [ x] Code for Problem 1 should be written in the file called `Karel_Newspaper.py` included in the repository. Please do not forget to fill out the meta-data information in the comments at the top of the template!
 	- Your program only has to work for a single world in this case, which is loaded by default.
 - [ ] Code for Problem 2 should be written in the file called `Karel_Painting.py` included in the repository. Please do not forget to fill out the meta-data information in the comments at the top of the template!
 	- In addition to working for the default world (`Karel_Painting.w`), your same program should also work for the 3 other provided worlds: `Painting1.w`, `Painting2.w`, and `Painting3.w`. **Make sure you test them as well!**

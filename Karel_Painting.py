@@ -2,7 +2,7 @@
 # Filename: Karel_Painting.py
 # 
 # Your name:Antonio Barrientos
-# Who did you work with (if anyone)?:
+# Who did you work with (if anyone)?: N/A
 # Estimate for time spent (in hrs)?: 1 hr?
 #====================================================
 

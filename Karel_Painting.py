@@ -1,7 +1,7 @@
 #====================================================
 # Filename: Karel_Painting.py
 # 
-# Your name:
+# Your name: Antonio Barrientos
 # Who did you work with (if anyone)?:
 # Estimate for time spent (in hrs)?:
 #====================================================
@@ -11,8 +11,51 @@
 # into smaller pieces! Here I'm leaving those pieces (and helper functions)
 # up to you to design and name as you see fit
 
+from Karel_Newspaper import return_to_start
 import karel
 
 def main():
     """ Function to cause Karel to paint 3 sides of its house and then go indoors. """
     # You can add your code below
+    turn_around()
+    paint_one_side()
+    turn_left()
+    move()
+    paint_one_side()
+    turn_left()
+    move()
+    paint_one_side()
+    go_inside()
+
+def paint_one_side():
+    """ Adds beepers along the outside of a singular wall"""
+    while left_is_blocked():
+        if left_is_blocked():
+            put_beeper()
+        move()
+
+
+def go_inside():
+    """ Tells Karel to head indoors"""
+    turn_left()
+    move()
+    move()
+    turn_left()
+    move()
+
+
+
+def turn_right():
+    """ Helping function to turn Karel 90 degrees to the right"""
+    turn_left()
+    turn_left()
+    turn_left()
+
+
+def turn_around():
+    """ Helping function to turn Karel 180 degrees"""
+    turn_left()
+    turn_left()
+
+
+
